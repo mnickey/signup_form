@@ -1,0 +1,43 @@
+<!--TODO The form should post to the url /signup/ when the user submits it.-->
+<!--TODO The email and password fields are both required.-->
+<!--TODO The form should validate the email field for a valid email address.-->
+<!--TODO The "forgot password" link should point to /forgot-password/new.-->
+<!--TODO The login link should point to /login.-->
+<!--TODO The logo and form should be horizontally centered, and have a height of 75px, as indicated in the design. Although the source file has a height of 111px, use CSS to set its height to 75px.-->
+<!--TODO Stretch feature: When the user hovers over the submit button, it should transition to a darker shade of green.-->
+<!--TODO The page should be SEO and accessibility friendly. That means including a title and description in the head of the document, and using labels with their for attribute set on the form.-->
+
+<html>
+<head>
+    <link rel="stylesheet" href="sytles/styles.css" type="text/css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/logo.png">
+    </div>
+</header>
+
+<form class="signup-form">
+    <h1>Sign up</h1>
+    <div class="email-input">
+        <label>Email</label>
+        <input class="email" type="email" placeholder="email@domain.com">
+    </div>
+    <div class="password-input"><label>Password</label>
+        <input class="password" type="password" placeholder="123!@#_whee">
+    </div>
+    <div class="signup-btn">
+        <button type="submit">Sign up</button>
+    </div>
+    <div class="forgot_pwd">
+        <a href="#">Forgot password?</a>
+    </div>
+</form>
+<div class="footer">
+    Already have an account?
+    <a class="login_link" href="#">Log in</a>
+</div>
+
+</body>
+</html>

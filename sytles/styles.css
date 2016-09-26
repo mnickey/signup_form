@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', helvetica, sans-serif;
+    background-color: deepskyblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+div img {
+    display: block;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: white;
+    width: 360px;
+    height: 500px;
+}
+
+.signup-form {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.email-input {
+    padding: 15px;
+    width: 288px;
+    text-align: center;
+}
+
+.password-input {
+    padding: 15px;
+    width: 288px;
+    text-align: center;
+}
+
+input[type='email'], input[type='password'], button[type='submit'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+.signup-btn {
+    padding: 15px;
+    width: 288px;
+}
+
+button[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.login_link {
+    color: white;
+    font-weight: 500;
+}
+
+.forgot_pwd {
+    text-align: center;
+}
+
+.forgot_pwd a {
+    text-decoration: none;
+    color: lightgray;
+    border-bottom: 1px solid lightgray;
+}
